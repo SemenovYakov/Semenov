@@ -1,0 +1,147 @@
+<html lang="rus">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <img class="logo" src="logo.png">
+        <input type="text" placeholder="Поиск..." class="input">
+        <input type="submit" class="search" value="Найти">
+        <button class="but">Войти</button>
+    </header>
+
+    <div class="tags">
+        <p href="#" class="films">Фильмы</p>
+        <p href="#" class="tv">Телеканалы</p>
+    </div>
+    <div class="container">
+        <h2 class="new">🔥Новинки</h2>
+        <div class="containerFilms">
+            <div class="containerFilms_cards"><img src="cat.png" class="fil">
+                <p class="names">Мульт в кино. Выпуск №103. Некогда грустить!</p>
+            </div>
+            <div class="containerFilms_cards"><img src="bat.png" class="fil">
+                <p class="names">Новый Бэтмен</p>
+            </div>
+            <div class="containerFilms_cards"><img src="odn.svg" class="fil">
+                <p class="names">Однажды.... в Голливуде</p>
+            </div>
+            <div class="containerFilms_cards"><img src="girl.png" class="fil">
+                <p class="names">Стриптизерши</p>
+            </div>
+        </div>
+
+        <h2 class="new2">Жанры</h2>
+        <div class="containerKind">
+            <div class="containerKind__card containerKind__card_comedy">
+                <img src="comedy.png" class="smile">
+                <h3 class="kind">Комедии</h3>
+            </div>
+            
+            
+            <div class="containerKind__card containerKind__card_drama">
+                <img src="drama.png" class="smile">
+                <h3 class="kind">Драмы</h3>
+            </div>
+            <div class="containerKind__card containerKind__card_fantacy">
+                <img src="fantacy.png" class="smile">
+                <h3 class="kind">Фантастика</h3>
+            </div>
+            <div class="containerKind__card containerKind__card_horror">
+                <img src="horror.png" class="smile">
+                <h3 class="kind">Ужасы</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerTV">
+        <div class="containerTV__card">
+            <img src="первый.png" class="program__logo">
+            <div class="text">
+                <h3 class="chanal">Первый канал</h3>
+                <p class="program"> 13:00 Новости </p>
+                <p class="program"> 14:00 Давай поженимся</p>
+                <p class="program"> 15:00 Другие новости</p>
+            </div>
+        </div>
+        <div class="containerTV__card">
+            <img src="2x2 (1).png" class="program__logo">
+            <div class="text">
+                <h3 class="chanal">2х2</h3>
+                <p class="program"> 13:00 Мульт ТВ </p>
+                <p class="program"> 14:00 ПОДОЗРИТЕЛЬНАЯ СОВА</p>
+                <p class="program"> 15:00 БУРДАШЕВ</p>
+            </div>
+        </div>
+        <div class="containerTV__card">
+            <img src="rbc.png" class="program__logo">
+            <div class="text">
+                <h3 class="chanal">РБК</h3>
+                <p class="program"> 13:00 ДЕНЬ. Горючая смесь, как бороться с суррогатом на АЗС </p>
+                <p class="program"> 14:00 ДЕНЬ. Главные темы</p>
+                <p class="program"> 15:00 Главные новости</p>
+            </div>
+        </div>
+        <div class="containerTV__card">
+            <img src="А.png" class="program__logo">
+            <div class="text">
+                <h3 class="chanal">AMEDIA PREMIUM</h3>
+                <p class="program"> 13:00 Клиент всегда мертв </p>
+                <p class="program"> 14:00 Голодные игры. Сойка-пересмешница. Часть 1</p>
+                <p class="program"> 15:00 Секс в большом городе</p>
+            </div>
+        </div>
+        <div class="containerTV__card">
+            <img src="Матч.png" class="program__logo">
+            <div class="text">
+                <h3 class="chanal">Матч!</h3>
+                <p class="program"> 13:00 Футбол: Англия-Россия</p>
+                <p class="program"> 15:00 Футбол: Россия-Швеция</p>
+                <p class="program"> 17:00 Футбол: Англия-Германия</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer_container">
+            <img src="htc-cs-logo.png" class="htc">
+            <div class="footer_text">
+                <p class="first">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК
+                    «Металлург»)</p>
+                <p class="second">+7 (3412) 93-88-61, 43-29-29</p>
+                <p class="third">htc-cs.ru</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close">X</a>
+                <h1 class="popup__vhod">Вход</h1>
+                <input type="login" class="popup__login" placeholder="Логин">
+                <input type="password" class="popup__password" placeholder="Пароль">
+                <input type="submit" class="popup__submit" value="Войти">
+                <input type="checkbox" class="popup__checkbox">
+                <p class="popup__memory">Запомнить</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scroll.js"></script>
+    <script src="popups.js"></script>
+</body>
+
+
+
+
+</html>

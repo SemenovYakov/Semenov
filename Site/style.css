@@ -1,0 +1,378 @@
+body{
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    height: 40px;
+    align-items: center;
+}
+
+/*Кнопка поиск*/
+.search {
+    margin-left: 30px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #ffffff;
+    color: #e5261e;
+    cursor: pointer;
+}
+
+/*Кнопка войти*/
+.but {
+    margin-left: 270px;
+    width: 113px;
+    height: 38px;
+    background-color: #e5261e;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #cc221b;
+}
+
+.logo {
+    width: 182px;
+    height: 36px;
+}
+
+.input {
+    margin-left: 200px;
+    width: 320px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    font-weight: 500;
+    color: #333333;
+}
+
+.input::placeholder {
+    font-weight: 400;
+    color: #828282;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    height: 120px;
+    background: #f2f2f2;
+}
+
+.footer_container {
+    display: flex;
+    margin: auto;
+    height: 120px;
+    width: 1180px;
+}
+
+.first {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.footer_text {
+    margin-left: 20px;
+}
+
+.second {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+}
+.program{
+    font-size: 16;
+}
+.third {
+    font-size: 16px;
+    line-height: 16px;
+    color: #1f4766;
+}
+
+.htc {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.tags {
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.films,
+.tv {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.films {
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.fil {
+    border-radius: 6px;
+}
+
+.containerFilms {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    max-width: 1180px;
+}
+
+.program__logo {
+    position: absolute;
+    margin-left: 175px;
+
+}
+
+.names {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #333333;
+}
+
+.containerKind__card {
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 208px;
+    justify-content: center;
+    align-items:center;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.containerKind__card_comedy {
+    opacity: 0.8;
+    background: linear-gradient(127.83deg, #f2c94c 8.44%, #f29a4a 91.36%);
+}
+
+.containerKind__card_comedy:hover {
+    opacity: 1;
+}
+
+.containerKind__card_drama {
+    opacity: 0.8;
+    background: linear-gradient(127.83deg, #f2994a 8.44%, #eb5757 91.36%);
+}
+
+.containerKind__card_drama:hover {
+    opacity: 1;
+}
+
+.containerKind__card_fantacy {
+    opacity: 0.8;
+    background: linear-gradient(127.83deg, #56ccf2 8.44%, #2f80ed 91.36%);
+}
+
+.containerKind__card_fantacy:hover {
+    opacity: 1;
+
+}
+
+.containerKind__card_horror {
+    opacity: 0.8;
+    background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+}
+
+.containerKind__card_horror:hover {
+    opacity: 1;
+}
+
+.kind{
+    color: white;
+    font-size: 20;
+    position:absolute;
+    top:140px;
+}
+
+
+.containerKind {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerFilms_cards {
+    width: 280px;
+    margin-right: 20px;
+}
+
+.container {
+    width: 1180px;
+    margin: auto;
+
+}
+
+.containerTV {
+    width: 1180px;
+    height: 725px;
+    margin: auto;
+    overflow: auto;
+    display: none;
+}
+
+.text {
+    position: absolute;
+    left: 400px;
+    height: 162px;
+    width: 700px;
+    display: block;
+    justify-content: center;
+}
+
+.containerTV__card {
+    width: 1180;
+    height: 162;
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.containerTV {
+    width: 1180px;
+    margin: auto;
+}
+
+.new {
+    display: flex;
+    margin: auto;
+    width: 1180px;
+}
+
+
+.new2 {
+    display: flex;
+    margin: auto;
+    width: 1180px;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.7s ease 0s;
+
+}
+
+.popup__close {
+    position: absolute;
+    top: 5px;
+    left: 285px;
+}
+
+.popup__body {
+    position: absolute;
+}
+
+.popup__content {
+    height: 394px;
+    width: 304px;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid green;
+    position: relative;
+}
+
+.popup__vhod {
+    position: absolute;
+    top: 36px;
+    right: 117px;
+    left: 117px;
+}
+
+.popup__login {
+    position: absolute;
+    width: 232px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+    top: 118px;
+    left: 36px;
+    font-size: 16px;
+}
+
+.popup__password {
+    position: absolute;
+    width: 232px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+    top: 167px;
+    left: 36px;
+    right: 36px;
+    font-size: 16px;
+}
+
+.popup__checkbox {
+    position: absolute;
+    top: 210px;
+    left: 36px;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup__memory {
+    position: absolute;
+    top: 197px;
+    left: 60px;
+    font-size: 16px;
+}
+
+.popup__submit {
+    position: absolute;
+    width: 113px;
+    height: 38px;
+    border-radius: 4px;
+    background: #E5261E;
+    top: 330px;
+    left: 96px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;    
+}
